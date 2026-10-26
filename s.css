@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #222;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* Main Article Container */
+
+.article-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 10px;
+}
+
+/* Image Container */
+
+.image-container {
+    width: 100%;
+    height: 335px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+/* Introduction */
+
+.intro {
+    font-size: 22px;
+    line-height: 1.2;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Article Heading */
+
+h1 {
+    font-size: clamp(40px, 6vw, 76px);
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.05;
+    letter-spacing: -2px;
+    margin-bottom: 45px;
+}
+
+/* Article Paragraphs */
+
+.article-content p {
+    font-size: 22px;
+    line-height: 1.22;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+/* Author */
+
+footer {
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 80px;
+}
+
+footer h3 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 600px) {
+
+    .article-container {
+        width: 92%;
+    }
+
+    .image-container {
+        height: 220px;
+    }
+
+    .intro,
+    .article-content p {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 42px;
+        letter-spacing: -1px;
+    }
+}

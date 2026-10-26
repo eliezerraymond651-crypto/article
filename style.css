@@ -1,0 +1,41 @@
+.grandparent{
+    width: 900px;
+    height: 900px;
+     display: flex;
+    justify-content:  center;
+    align-items:  center;
+    background: rgb(205, 217, 250) 
+}
+.parent{
+    border: 2px solid white;
+    width: 600px;
+    height: 600px;
+    border-radius: 10%;
+    padding: 3%;
+    background: white;
+
+}
+img{
+       width:100%;
+    height: 200px;
+    align-items:  center;
+    
+}
+p{
+    text-align: center;
+}
+#it{
+    text-align: left;
+}
+#tn{
+   text-align: left; 
+}
+#as{
+    text-transform: capitalize;
+    }
+
+    
+
+    
+
+
